@@ -5,7 +5,7 @@ import UserRoute from "./routes/UserRoute.js";
 const app = express();
 app.use(
     cors({
-      origin: "http://localhost:3000", 
+      origin: "https://d-04-450714.uc.r.appspot.com/", 
       methods: ["GET", "POST", "PATCH", "DELETE"],
       credentials: true,
     })
